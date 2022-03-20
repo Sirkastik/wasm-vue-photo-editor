@@ -10,8 +10,8 @@
       class="cursor-pointer"
       @click="$editor.dispatch('rotate_cw')"
     />
-    <flip-h-icon class="cursor-pointer" @click="$editor.dispatch('flip_v')" />
-    <flip-v-icon class="cursor-pointer" @click="$editor.dispatch('flip_h')" />
+    <flip-h-icon class="cursor-pointer" @click="$editor.dispatch('flip_h')" />
+    <flip-v-icon class="cursor-pointer" @click="$editor.dispatch('flip_v')" />
   </div>
 </template>
 

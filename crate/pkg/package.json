@@ -1,0 +1,12 @@
+{
+  "name": "crate",
+  "version": "0.1.0",
+  "files": [
+    "crate_bg.wasm",
+    "crate.js",
+    "crate.d.ts"
+  ],
+  "module": "crate.js",
+  "types": "crate.d.ts",
+  "sideEffects": false
+}
