@@ -1,9 +1,12 @@
 <template>
   <div class="w-full flex items-center justify-between px-10 text-gray-400">
     <div class="left">
-      <div class="logo flex flex-col items-end">
-        <span class="text-2xl font-black">WASM</span>
-        <span class="text-[0.6rem] tracking-widest">PHOTO EDITOR</span>
+      <div class="lo flex gap-2 items-center h-14">
+        <img src="@/assets/logo.png" class="h-full" alt="" />
+        <div class="logo flex flex-col items-end">
+          <span class="text-2xl font-black">WASM</span>
+          <span class="text-[0.6rem] tracking-widest">PHOTO EDITOR</span>
+        </div>
       </div>
     </div>
     <div class="right flex gap-2">

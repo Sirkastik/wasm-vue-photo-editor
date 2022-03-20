@@ -2,8 +2,7 @@
   "name": "wasm-app",
   "version": "0.1.0",
   "scripts": {
-    "wasm": "wasm-pack build ./crate --target web",
-    "dev": "npm run wasm && vite",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 5050"
   },
