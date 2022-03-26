@@ -8,6 +8,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-family: "Inter", sans-serif;
+  background-image: url("./bg.png");
+  background-size: cover;
 }
 
 ::-webkit-scrollbar {
