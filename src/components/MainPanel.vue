@@ -1,7 +1,7 @@
 <template>
-  <main class="flex-1">
+  <main>
     <div
-      class="canvas w-full h-full flex items-center justify-center relative p-14"
+      class="canvas w-full h-full flex items-center justify-center relative md:p-14"
       v-show="imageUrl"
     >
       <canvas

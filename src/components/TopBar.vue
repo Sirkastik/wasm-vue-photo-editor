@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex items-center justify-between px-10 text-gray-400">
+  <div class="w-full flex flex-col md:flex-row gap-4 py-4 md:py-0 items-center md:justify-between px-10 text-gray-400">
     <div class="left">
       <div class="lo flex gap-2 items-center h-14">
         <img src="@/assets/logo.png" class="h-full" alt="" />
